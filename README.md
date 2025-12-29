@@ -4,6 +4,8 @@
 Customer loyalty and churn analysis for a telecom company using **Microsoft Excel**.  
 This project uses an interactive dashboard to understand customer behavior, identify churn-prone segments, and analyze how revenue is distributed across different customer groups.
 
+👉 ***[View the Interactive Dashboard here](https://mavenshowcase.com/project/54414)***
+
 ![Customer Loyalty Analysis Dashboard](Customer%20Loyalty%20Analysis%20dashboard.jpeg)
 
 ---
@@ -36,7 +38,7 @@ The data is customer-level and suitable for churn and retention analysis.
 
 ##  Data Cleaning & Preparation
 
-Data preparation was a critical part of this project and was done entirely in Excel.
+Data preparation was a critical part of this project and was completed using **Excel and Power Query**.
 
 Key steps included:
 
@@ -132,4 +134,4 @@ Based on the analysis:
 ##  Limitations
 
 - The dataset is historical and may not capture all churn drivers  
-- External factors like customer support quality or competitor pricing are not included  
+- External factors like customer support quality or competitor pricing are not included
