@@ -1,126 +1,135 @@
-# Customer Loyalty & Churn Analysis — Excel Dashboard
+#  Customer Loyalty Analysis (Excel Dashboard)
 
-## Project Overview
+## Project Focus
+Customer loyalty and churn analysis for a telecom company using **Microsoft Excel**.  
+This project uses an interactive dashboard to understand customer behavior, identify churn-prone segments, and analyze how revenue is distributed across different customer groups.
 
-This project focuses on understanding customer loyalty and churn behavior for a telecom company. Using Excel, I built an interactive dashboard that highlights how customers behave across different services, payment types, contract lengths, and tenure groups. The goal of this project was to identify what keeps customers loyal, what drives churn, and which customer segments create the most revenue.
-
-The dashboard provides a clean, visual summary of customer behavior and helps businesses quickly identify retention opportunities.
-
-### 📊 Dashboard Preview
-![Customer Loyalty Dashboard](Customer%20Loyalty%20Analysis%20dashboard.png)
-
-Telecom companies often struggle with:
-
-- High churn rates  
-- Low loyalty among new customers  
-- Revenue loss from customers leaving early  
-- Limited visibility into churn patterns  
-
-This dashboard solves these issues by giving a clear, data-backed story of:
-
-- Who is staying  
-- Who is leaving  
-- Why they might be leaving  
-- Which groups are most valuable  
-- Which behaviors indicate churn risk  
+![Customer Loyalty Analysis Dashboard](Customer%20Loyalty%20Analysis%20dashboard.jpeg)
 
 ---
 
-## Project Goals
+##  Goals
 
-- Present customer loyalty and churn insights in a simple, easy-to-understand format  
-- Identify the customer segments most at risk of leaving  
-- Highlight revenue distribution across different customer groups  
-- Give business teams (marketing, customer care, retention) a quick way to understand customer patterns  
-
----
-
-## Dataset Summary
-
-The dataset includes:
-
-- Customer tenure (in months, grouped into 0–6 years)  
-- Contract type (Monthly, One-Year, Two-Year)  
-- Internet service type  
-- Payment methods  
-- Monthly charges  
-- Revenue  
-- Loyalty category (New, Engaged, Loyal)  
-- Churn status  
-
-Each of these fields plays a role in understanding customer loyalty and behavior.
+- Analyze customer loyalty and churn patterns  
+- Identify customer segments with higher churn risk  
+- Understand revenue contribution across tenure, payment methods, and services  
+- Present insights through a clean, easy-to-use Excel dashboard for business users  
 
 ---
 
-## Key Steps in the Project
+##  Dataset Summary
 
-### 1️⃣ Dataset Structuring and Understanding
-Before building any dashboard, I reviewed all fields and ensured they were properly formatted for analysis. I standardized important columns like:
+The dataset represents telecom customer subscription data and includes key fields such as:
 
-- Loyalty Level  
-- Tenure Group  
-- Payment Method  
-- Gender  
+- **Customer Tenure (Months)**  
+- **Contract Type**  
+- **Internet Service Type**  
+- **Payment Method**  
+- **Monthly Charges**  
+- **Revenue**  
+- **Loyalty Level** (New, Engaged, Loyal)  
+- **Churn Status** (Exited / Retained)  
 
-This step ensures the visuals are meaningful and easy to read.
-
----
-
-### 2️⃣ Creating Tenure Groups
-To make customer duration easier to study, I grouped customer tenure into:
-
-- 0–1 Year  
-- 1–2 Years  
-- 2–3 Years  
-- 3–4 Years  
-- 4–5 Years  
-- 5–6 Years  
-
-This helps identify whether long-term customers behave differently than short-term customers.
+The data is customer-level and suitable for churn and retention analysis.
 
 ---
 
-### 3️⃣ Building KPI Cards
-I created clean, modern KPI cards showing:
+##  Data Cleaning & Preparation
 
-- Total Customers  
-- Churn Rate  
-- Average Monthly Charges  
+Data preparation was a critical part of this project and was done entirely in Excel.
 
-These KPIs give a quick snapshot of business performance. They are placed at the top to draw immediate attention.
+Key steps included:
+
+- Removed duplicate records and handled missing values  
+- Standardized text fields (Yes/No values, category names)  
+- Corrected and validated numeric data types  
+- Created **Tenure Groups (0–6 years)** to analyze customer lifecycle behavior  
+- Verified churn and revenue calculations for accuracy  
+- Structured clean tables to ensure smooth pivot analysis  
+
+**Excel functions used:**  
+`IF / IFS`, `SUMIFS`, `COUNTIFS`, `TRIM`, `PROPER`
 
 ---
 
-### 4️⃣ Adding Slicers for Interactivity
-I added slicers for:
+##  Analysis Approach
 
+The analysis was performed using:
+
+- **Pivot Tables** with calculated fields  
+- **KPI cards** created using Excel formulas  
+- **Interactive slicers** for dynamic filtering  
+
+Key business questions addressed:
+
+- Who churns more?  
+- Does payment method affect churn behavior?  
+- Which customer groups generate the most revenue?  
+- How does customer loyalty change over time?  
+
+---
+
+##  Dashboard KPIs
+
+The dashboard highlights key performance metrics at a glance:
+
+- **Total Customers**  
+- **Churn Rate**  
+- **Average Monthly Charges**  
+- **Revenue Distribution**  
+
+---
+
+##  Dashboard Visuals
+
+The dashboard includes the following visuals:
+
+- Customer Loyalty Breakdown  
+- Churn by Internet Service Type  
+- Churn by Payment Method  
+- Revenue by Gender  
+- Churn by Contract Type  
+- Tenure-based churn comparison  
+
+**Interactive slicers:**  
 - Tenure Group  
 - Contract Type  
 
-This allows anyone using the dashboard to filter data instantly and see how results change.
+---
+
+##  Key Insights
+
+Some of the major insights identified:
+
+- Customers on **monthly contracts** show significantly higher churn  
+- **Electronic check** users have the highest churn rate  
+- Customers in their **first year** are more likely to churn  
+- **Loyal customers** contribute higher long-term revenue  
 
 ---
 
-### 5️⃣ Designing Insightful Visuals
-I designed several visuals to answer critical business questions:
+##  Business Recommendations
 
-✔ **Loyalty Breakdown (Donut Chart)** — % of Loyal, Engaged, and New customers  
-✔ **Churn by Internet Service Type** — highlights risky services  
-✔ **Churn by Payment Method** — identifies billing risk patterns  
-✔ **Revenue by Gender** — simple demographic insight  
+Based on the analysis:
 
-Each chart aligns with real business questions.
-
----
-
-## Skills Demonstrated
-
-- Customer behavior & churn analysis  
-- Advanced Excel dashboard design  
-- KPI storytelling  
-- Data cleaning & structuring  
-- Business-focused insight generation  
+- Encourage customers to move to long-term contracts  
+- Focus retention efforts on high-risk payment method users  
+- Improve onboarding experience for new customers  
+- Offer rewards or benefits to long-tenure customers  
 
 ---
 
-This project demonstrates my ability to turn raw data into **clear, visual business insights** that support smarter customer-retention decisions.
+##  Skills Demonstrated
+
+- Excel data cleaning and preparation  
+- Pivot Tables and slicers  
+- KPI creation and dashboard design  
+- Churn and loyalty analysis  
+- Business-focused data storytelling  
+
+---
+
+##  Limitations
+
+- The dataset is historical and may not capture all churn drivers  
+- External factors like customer support quality or competitor pricing are not included  
