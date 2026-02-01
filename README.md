@@ -135,3 +135,9 @@ Based on the analysis:
 
 - The dataset is historical and may not capture all churn drivers  
 - External factors like customer support quality or competitor pricing are not included
+  
+---
+
+##  Dataset
+Customer Loyalty Analysis data sourced from Kaggle  
+🔗 **Raw dataset:** [https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
